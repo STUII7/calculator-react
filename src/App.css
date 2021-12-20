@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body{
+  background-color: green;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root{
+  width: 100%;
+  min-width: 80%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.thed{
+  min-width: 701;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+width: 100%;
+font-size: 450%;
+color: white;
+background-color: black;
+border-color: cornsilk;
+border-radius: 15px;
+box-shadow:inset 15px 15px 35px gray,inset -15px -15px 35px gray;
 }
-
-.App-link {
-  color: #61dafb;
+.ac {
+color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SIETE {
+color: white;
+background-color: gainsboro;
+border-radius: 15px;
 }
